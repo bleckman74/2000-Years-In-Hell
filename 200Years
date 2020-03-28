@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="Disco Pimps" Logo="" Description="Phase 2 of Our New Overhaul">
+		<Server Name="2000 Years In Hell" Logo="">
+			<Description>
+Welcome to Our 200YIH test Server, keep in Mind This Ovrhaul is NOT 100% Done
+	THis Mod Uses Modlets Made By Other Modders
+  --GuppyCurr
+  --War3zuk
+  
+			</Description>
+				<Version>Latest</Version>
+			<RSS/>
+				<Excludes>
+				<Exclude>7DaysToDieServer_Data\</Exclude>
+				<Exclude>\obj\</Exclude>
+				<Exclude>\bin\</Exclude>
+			</Excludes>
+			<ReleaseNotes/>
+			<DownloadMode>Clone</DownloadMode>
+			<Downloads>
+				<Download>https://github.com/bleckman74/2000-Years-In-Hell</Download>
+
+			</Downloads>
+		</Server>
+		
+		
+
+	</ServerGroup>
+
+</Servers>
