@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+
+ 1 row:
+ window height="121"
+ rect height="75"
+
+ add 46 for window
+ -->
+<configs>
+    <append xpath="/windows">
+        <window name="windowToolsGuppyBench" width="228" height="300" panel="Right" cursor_area="true">
+            <panel style="header.panel">
+                <sprite style="header.icon" sprite="ui_game_symbol_workbench"/>
+                <label style="header.name" text="MECHBENCH" text_key="MECHBENCH"/>
+            </panel>
+            <rect name="content" depth="0" pos="0,-46" height="300" disablefallthrough="true" on_press="true">
+                <grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" required_tools="WheelSpreader2000YIH,Rolling Mat" required_tools_only="true">
+                    <required_item_stack name="0"/>
+                </grid>
+            </rect>
+        </window>
+
+		<window name="windowCombine" width="228" height="224" panel="Right" cursor_area="true" > 
+		 <panel style="header.panel"> 
+		 <sprite style="header.icon" sprite="ui_game_symbol_add"/> 
+		<label style="header.name" text="COMBINE" text_key="xuiCombine"/> 
+		</panel> 
+		<rect pos="0, -46" height="230" width="228" controller="CombineGrid"> 
+		 <sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="0,1" width="228" height="230" color="[black]" type="sliced" fillcenter="false" /> 
+		 <sprite name="background" color="[darkGrey]" pos="0,1" type="sliced"/> 
+		 <grid name="parts" rows="3" cols="1" pos="3,-2" cell_width="150" cell_height="76" repeat_content="true" > 
+		 <required_item_stack /> 
+		</grid> 
+			<label depth="3" pos="90,-25" text="Item A" text_key="xuiCombineItemA" /> 
+			 <label depth="3" pos="90,-100" text="Item B" text_key="xuiCombineItemB"/>
+			 <label depth="3" pos="90,-175" text="Result" text_key="xuiResult"/> 
+		 </rect> 
+	 </window> 
+	</append>		
+   
+</configs>

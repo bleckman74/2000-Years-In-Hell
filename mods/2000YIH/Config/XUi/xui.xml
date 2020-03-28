@@ -1,0 +1,38 @@
+<configs>
+
+
+<append xpath="/xui/ruleset[@name='default']" >
+		<window_group name="workstation_guppyAutoWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList" />
+			<window name="craftingInfoPanel" />
+			<window name="windowCraftingQueue" />
+			<window name="windowToolsGuppyBench"/>
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+
+
+</append>
+	<append xpath="/xui/ruleset/window_group[@name='workstation_workbench']" >
+		<window name="windowCombine" />
+	</append>
+	<append xpath="/xui/ruleset[@name='default']" >
+
+<window_group name="workstation_HD GunBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowOutput" />
+	<window name="windowNonPagingHeader" />
+	</window_group>
+	
+<window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowOutput" />
+	<window name="windowNonPagingHeader" />
+	</window_group>
+
+</append>
+</configs>

@@ -1,0 +1,13 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,vehicleSHERPchassis,vehicleSHERPaccessories</append>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='4,5']/@tags">,meleeToolImpactWrench</append>
+			<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,5" tags="Home Filtered Water Cooler"/>
+	</append>
+	<append xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group">
+	
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="gunLAR"/>
+	
+	</append>
+ </configs>

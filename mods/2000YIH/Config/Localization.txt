@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+WheelSpreader2000YIH,items,item,,,"Wheel Spreader 2000"
+WheelSpreader2000YIHDesc,items,item,,,"Tool To Put Tires On The Wheel."
+guppyAutoWorkbench,blocks,Workstation,,,"Mechanic Workbench"
+guppyAutoWorkbenchDesc,blocks,Workstation,,,"Mechanic Workbench To Build Motorized Vehicles."
