@@ -18,6 +18,7 @@
 	</recipe>
 </append>
 <append xpath="/recipes">
+
 	
 <recipe name="Weed Wacker 5000" count="1"  craft_time = "10" craft_area="workbench">
 	<ingredient name="resourceForgedIron" count="5"/>
